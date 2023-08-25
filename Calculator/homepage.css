@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #a71db4;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+  }
+
+  a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style for visited links */
+  a:visited {
+    color: #800080;
+  }
+  
+  /* Style for active links (when clicked) */
+  a:active {
+    color: #ff0000;
+  }
+
+  .bg{
+    background-image: url(business-seamless-pattern_1284-4862.jpg.webp);
+    background-size: cover;
+    height: 70vh;
+    background-repeat: no-repeat;
+  }

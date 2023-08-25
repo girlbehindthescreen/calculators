@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.time-block {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+}
+
+.time {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.label {
+    font-size: 16px;
+    color: #777;
+}
+
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underlines from links */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+  }
+  
+  /* Change link color on hover */
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Style for visited links */
+  a:visited {
+    color: #0056b3;
+  }
+  
+  /* Style for active links (when clicked) */
+  a:active {
+    color: #ff0000;
+  }
